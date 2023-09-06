@@ -146,17 +146,6 @@ header {
 }
 
 
-@media screen and (min-width: 577px) and (max-width: 992px) {
-  .hero-container {
-    display: flex;
-    flex-direction: column-reverse;
-    gap: 40px;
-  }
-
-  .hero-item p {
-    gap: 2px;
-  }
-}
 
 /* Hero Section Style End */
 
@@ -295,45 +284,6 @@ header {
   top: -170px;
 }
 
-@media screen and (max-width: 576px) {
-  .post-container {
-    display: flex;
-    flex-direction: column;
-    padding: 10px 10px;
-    gap: 30px;
-    text-align: center;
-  }
-
-  .post-right-info img {
-    width: 300px;
-  }
-
-  .small-img {
-    width: 150px !important;
-  }
-
-  .post-left-info {
-    width: 100%;
-  }
-}
-
-@media screen and (min-width: 577px) and (max-width: 992px) {
-  .post-container {
-    display: flex;
-    flex-direction: column;
-    padding: 10px 10px;
-    gap: 30px;
-    text-align: center;
-  }
-
-  .post-right-info img {
-    width: 300px;
-  }
-
-  .small-img {
-    width: 150px !important;
-  }
-}
 
 /* Post Section Style End */
 
@@ -385,17 +335,6 @@ header {
   margin-top: 15px;
 }
 
-@media screen and (max-width: 576px) {
-
-  .five-logo,
-  .four-logo {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: start;
-    gap: 10px;
-  }
-}
 
 /* Logo Section Style End  */
 
@@ -473,14 +412,6 @@ footer {
   color: rgba(255, 255, 255, 0.60);
 }
 
-@media screen and (max-width: 576px) {
-
-  .footer-menu,
-  .footer-terms {
-    flex-wrap: wrap;
-  }
-
-}
 
 /* Footer Style End */
 
@@ -489,6 +420,7 @@ footer {
 /* Responsive for mOObile Version */
 
 @media screen and (max-width: 576px) {
+
   header {
     display: flex;
     flex-direction: column;
@@ -548,16 +480,77 @@ footer {
   }
 
 
+  .post-container {
+    display: flex;
+    flex-direction: column;
+    padding: 10px 10px;
+    gap: 30px;
+    text-align: center;
+  }
+
+  .post-right-info img {
+    width: 300px;
+  }
+
+  .small-img {
+    width: 150px !important;
+  }
+
+  .post-left-info {
+    width: 100%;
+  }
+
+  .five-logo,
+  .four-logo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    gap: 10px;
+  }
+
+  .footer-menu,
+  .footer-terms {
+    flex-wrap: wrap;
+  }
+
 }
 
 
 /* Responsive code for Tablet Verion */
 
 @media screen and (min-width: 577px) and (max-width: 992px) {
+
+  .hero-container {
+    display: flex;
+    flex-direction: column-reverse;
+    gap: 40px;
+  }
+
+  .hero-item p {
+    gap: 2px;
+  }
+
   .about-container {
     display: flex;
     flex-direction: column;
     gap: 40px;
     text-align: center;
+  }
+
+  .post-container {
+    display: flex;
+    flex-direction: column;
+    padding: 10px 10px;
+    gap: 30px;
+    text-align: center;
+  }
+
+  .post-right-info img {
+    width: 300px;
+  }
+
+  .small-img {
+    width: 150px !important;
   }
 }
